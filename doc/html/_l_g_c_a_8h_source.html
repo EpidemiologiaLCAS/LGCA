@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>Autômatos Celulares: Código-Fonte de LGCA.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Gerado por Doxygen 1.7.4 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Busca');
+--></script>
+<div id="top">
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Autômatos Celulares&#160;<span id="projectnumber">1</span></div>
+   <div id="projectbrief">Implementacao de ACs em C++</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;Principal</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Arquivos</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Busca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;Arquivos</span></a></li>
+      <li><a href="globals.html"><span>Arquivos&#160;Membros</span></a></li>
+    </ul>
+  </div>
+<div class="header">
+  <div class="headertitle">
+<div class="title">LGCA.h</div>  </div>
+</div>
+<div class="contents">
+<a href="_l_g_c_a_8h.html">Vá para a documentação deste arquivo.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="comment">/* </span>
+<a name="l00002"></a>00002 <span class="comment"> * File:   LGCA.h</span>
+<a name="l00003"></a>00003 <span class="comment"> * Author: Rodrigo Marianni</span>
+<a name="l00004"></a>00004 <span class="comment"> *</span>
+<a name="l00005"></a>00005 <span class="comment"> * Baseado no artigo</span>
+<a name="l00006"></a>00006 <span class="comment"> * &quot;Individual-based lattice model for spatial spread of epidemics&quot;,</span>
+<a name="l00007"></a>00007 <span class="comment"> * de Henryk Fuks and Anna T. Lawniczak (2001).</span>
+<a name="l00008"></a>00008 <span class="comment"> *</span>
+<a name="l00009"></a>00009 <span class="comment"> * Obs.: o usuário deve invocar o médodo inicializar(), para definir o número</span>
+<a name="l00010"></a>00010 <span class="comment"> * de infectados, antes de tentar efetuar simulações com o LGCA.</span>
+<a name="l00011"></a>00011 <span class="comment"> *</span>
+<a name="l00012"></a>00012 <span class="comment"> * Created on 30 de Agosto de 2010, 22:09</span>
+<a name="l00013"></a>00013 <span class="comment"> */</span>
+<a name="l00014"></a>00014 
+<a name="l00015"></a>00015 <span class="preprocessor">#ifndef LGCA_H</span>
+<a name="l00016"></a>00016 <span class="preprocessor"></span><span class="preprocessor">#define LGCA_H</span>
+<a name="l00017"></a>00017 <span class="preprocessor"></span>
+<a name="l00018"></a>00018 <span class="preprocessor">#include &lt;vector&gt;</span>
+<a name="l00019"></a>00019 <span class="preprocessor">#include &lt;iostream&gt;</span>
+<a name="l00020"></a>00020 <span class="preprocessor">#include &lt;cmath&gt;</span>
+<a name="l00021"></a>00021 <span class="preprocessor">#include &quot;<a class="code" href="_celula_l_g_c_a_8h.html">CelulaLGCA.h</a>&quot;</span>
+<a name="l00022"></a>00022 <span class="preprocessor">#include &quot;<a class="code" href="_janela_s_d_l_8h.html">JanelaSDL.h</a>&quot;</span>
+<a name="l00023"></a>00023 <span class="preprocessor">#include &quot;<a class="code" href="_automato_celular_8h.html">AutomatoCelular.h</a>&quot;</span>
+<a name="l00024"></a>00024 <span class="preprocessor">#include &quot;<a class="code" href="_arquivo_8h.html">Arquivo.h</a>&quot;</span>
+<a name="l00025"></a>00025 <span class="preprocessor">#include &quot;<a class="code" href="_campo_medio_8h.html">CampoMedio.h</a>&quot;</span>
+<a name="l00026"></a>00026 
+<a name="l00027"></a><a class="code" href="_l_g_c_a_8h.html#a5dec35c41290448e4f38b8ed46830f1b">00027</a> <span class="preprocessor">#define FILE_GRAFICO_IR &quot;./lgca_dados_grafico_IR.txt&quot;</span>
+<a name="l00028"></a><a class="code" href="_l_g_c_a_8h.html#aa424bc517a4ad83b2d7d883a9bedb328">00028</a> <span class="preprocessor"></span><span class="preprocessor">#define FILE_GRAFICO_S &quot;./lgca_dados_grafico_S.txt&quot;</span>
+<a name="l00029"></a><a class="code" href="_l_g_c_a_8h.html#a47d14f3be025ba04602be21ad245e44f">00029</a> <span class="preprocessor"></span><span class="preprocessor">#define FILE_GRAFICO_MF &quot;./lgca_dados_grafico_MF.txt&quot;</span>
+<a name="l00030"></a><a class="code" href="_l_g_c_a_8h.html#a6ecc11f376055c1310ad85b17a80fd69">00030</a> <span class="preprocessor"></span><span class="preprocessor">#define FILE_ESTADO &quot;./lgca_estado_inicial.txt&quot;</span>
+<a name="l00031"></a>00031 <span class="preprocessor"></span>
+<a name="l00032"></a>00032 <span class="comment">/* TODO:</span>
+<a name="l00033"></a>00033 <span class="comment"> * - reescrever as classes AC e LGCA para utilizar herança...</span>
+<a name="l00034"></a>00034 <span class="comment"> *      - generalizar o código para lattices hexagonais...</span>
+<a name="l00035"></a>00035 <span class="comment"> * - reescrever o acesso a matrizes usando a STL (iterators em vez de acesso indexado)</span>
+<a name="l00036"></a>00036 <span class="comment"> */</span>
+<a name="l00037"></a><a class="code" href="class_l_g_c_a.html">00037</a> <span class="keyword">class </span><a class="code" href="class_l_g_c_a.html">LGCA</a> {
+<a name="l00038"></a>00038 <span class="keyword">public</span>:
+<a name="l00039"></a>00039     <a class="code" href="class_l_g_c_a.html#ace248ffd3ca55886e9f53c924d958bf5">LGCA</a>(); <span class="comment">// construtor vazio; útil para recuperar estados salvos;</span>
+<a name="l00040"></a>00040     <a class="code" href="class_l_g_c_a.html#ace248ffd3ca55886e9f53c924d958bf5">LGCA</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> &amp;i, <span class="keyword">const</span> <span class="keywordtype">int</span> &amp;j, <span class="keyword">const</span> <span class="keywordtype">int</span> &amp;pixel, <span class="keyword">const</span> <span class="keywordtype">int</span> &amp;delay,
+<a name="l00041"></a>00041          <span class="keyword">const</span> <span class="keywordtype">int</span> &amp;geracoes, <span class="keyword">const</span> <span class="keywordtype">float</span> &amp;v, <span class="keyword">const</span> <span class="keywordtype">float</span> &amp;r); <span class="comment">// construtor para inicialização direta</span>
+<a name="l00042"></a>00042     <a class="code" href="class_l_g_c_a.html#ace248ffd3ca55886e9f53c924d958bf5">LGCA</a>(<span class="keyword">const</span> <a class="code" href="class_l_g_c_a.html">LGCA</a>&amp; orig);
+<a name="l00043"></a>00043     <span class="keyword">virtual</span> <a class="code" href="class_l_g_c_a.html#a2478e6d12fa3ba935fafa75fbc4a909b">~LGCA</a>();
+<a name="l00044"></a>00044     <span class="keywordtype">void</span> <a class="code" href="class_l_g_c_a.html#a5850288581a5a4bdf94e7dd189d158c1">inicializar</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> &amp;infectados, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> &amp;suscetiveis);
+<a name="l00045"></a>00045     <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_l_g_c_a.html#ad4c2cb405a0dc6fbc69001fe42bb7bab">aplicarTransicao</a>(<span class="keywordtype">void</span>);
+<a name="l00046"></a>00046     <span class="comment">// métodos que permitem o armazenamento e recuperação de LGCAs inicializados;</span>
+<a name="l00047"></a>00047     <span class="comment">// úteis para reprodução de resultados e testes comparativos com diferentes parâmetros</span>
+<a name="l00048"></a>00048     <span class="keywordtype">void</span> <a class="code" href="class_l_g_c_a.html#a677fe7998c00ec042c79e32412330685">salvarEstado</a>(<span class="keywordtype">void</span>);
+<a name="l00049"></a>00049     <span class="keywordtype">void</span> <a class="code" href="class_l_g_c_a.html#a991772654d1f45d6eb45c6bb12cdf93d">carregarEstado</a>(<span class="keywordtype">void</span>);
+<a name="l00050"></a>00050 <span class="keyword">private</span>:
+<a name="l00051"></a>00051     <span class="comment">// operações (p. 4 do artigo):</span>
+<a name="l00052"></a>00052     <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> operacaoContato(<span class="keywordtype">void</span>);
+<a name="l00053"></a>00053     <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> operacaoContato_TESTE(<span class="keywordtype">void</span>);
+<a name="l00054"></a>00054     <span class="keywordtype">void</span> totalizarIndividuos(<span class="keywordtype">int</span> &amp;totI, <span class="keywordtype">int</span> &amp;totR, <span class="keywordtype">int</span> &amp;totS);
+<a name="l00055"></a>00055     <span class="keywordtype">void</span> operacaoRandomizacao(<span class="keywordtype">void</span>);
+<a name="l00056"></a>00056     <span class="keywordtype">void</span> operacaoPropagacao(<span class="keywordtype">void</span>);
+<a name="l00057"></a>00057     <span class="comment">// obtém a célula vizinha, dado um canal; deve retornar NULL se não houver vizinho naquela direção.</span>
+<a name="l00058"></a>00058     <a class="code" href="class_celula_l_g_c_a.html">CelulaLGCA</a>* obterCelulaVizinha(<span class="keyword">const</span> <span class="keywordtype">int</span> &amp;canal, <span class="keyword">const</span> <span class="keywordtype">int</span> &amp;i, <span class="keyword">const</span> <span class="keywordtype">int</span> &amp;j);
+<a name="l00059"></a>00059     <span class="keywordtype">void</span> prepararJanelaAC(<span class="keywordtype">void</span>);
+<a name="l00060"></a>00060     <span class="comment">// operações de Arquivo</span>
+<a name="l00061"></a>00061     <span class="keywordtype">void</span> gravarDadosGraficoIR(<span class="keyword">const</span> std::string &amp;linha);
+<a name="l00062"></a>00062     <span class="keywordtype">void</span> gravarDadosGraficoS(<span class="keyword">const</span> std::string &amp;linha);
+<a name="l00063"></a>00063     <span class="keywordtype">void</span> gravarDadosGraficoMF(<span class="keyword">const</span> std::string &amp;linha);
+<a name="l00064"></a>00064     <span class="keywordtype">void</span> calcularDistribuicaoIndividuos(<span class="keywordtype">void</span>);
+<a name="l00065"></a>00065 
+<a name="l00066"></a>00066     std::vector&lt;std::vector&lt;CelulaLGCA&gt; &gt; matriz;
+<a name="l00067"></a>00067     <a class="code" href="class_janela_s_d_l.html">JanelaSDL</a> janela;
+<a name="l00068"></a>00068     <span class="keywordtype">int</span> linhas, colunas;
+<a name="l00069"></a>00069     <span class="keywordtype">int</span> maxGeracoes, geracao;
+<a name="l00070"></a>00070     <span class="keywordtype">float</span> virulencia, recuperacao;
+<a name="l00071"></a>00071     <span class="keywordtype">bool</span> inicializado;
+<a name="l00072"></a>00072     <a class="code" href="class_arquivo.html">Arquivo</a> arqGraficoIR, arqGraficoS, arqGraficoMF;
+<a name="l00073"></a>00073     <a class="code" href="class_campo_medio.html">CampoMedio</a> meanField;
+<a name="l00074"></a>00074 };
+<a name="l00075"></a>00075 
+<a name="l00076"></a>00076 <span class="preprocessor">#endif  </span><span class="comment">/* LGCA_H */</span>
+<a name="l00077"></a>00077 
+</pre></div></div>
+</div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Arquivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Funções</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Amigas</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Definições e Macros</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr class="footer"/><address class="footer"><small>Gerado em Segunda, 9 de Maio de 2011 22:34:52 para Autômatos Celulares por&#160;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.4 </small></address>
+</body>
+</html>

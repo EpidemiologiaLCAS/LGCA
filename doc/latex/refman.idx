@@ -1,0 +1,199 @@
+\indexentry{Arquivo@{Arquivo}|hyperpage}{5}
+\indexentry{Arquivo@{Arquivo}!Arquivo@{Arquivo}|hyperpage}{5}
+\indexentry{Arquivo@{Arquivo}!Arquivo@{Arquivo}|hyperpage}{5}
+\indexentry{Arquivo@{Arquivo}!Arquivo@{Arquivo}|hyperpage}{5}
+\indexentry{Arquivo@{Arquivo}!Arquivo@{Arquivo}|hyperpage}{5}
+\indexentry{Arquivo@{Arquivo}!$\sim $Arquivo@{$\sim $Arquivo}|hyperpage}{5}
+\indexentry{$\sim $Arquivo@{$\sim $Arquivo}!Arquivo@{Arquivo}|hyperpage}{5}
+\indexentry{Arquivo@{Arquivo}!fechar@{fechar}|hyperpage}{5}
+\indexentry{fechar@{fechar}!Arquivo@{Arquivo}|hyperpage}{5}
+\indexentry{Arquivo@{Arquivo}!gravarLinha@{gravarLinha}|hyperpage}{5}
+\indexentry{gravarLinha@{gravarLinha}!Arquivo@{Arquivo}|hyperpage}{5}
+\indexentry{Arquivo@{Arquivo}!obterLinha@{obterLinha}|hyperpage}{5}
+\indexentry{obterLinha@{obterLinha}!Arquivo@{Arquivo}|hyperpage}{5}
+\indexentry{AutomatoCelular@{AutomatoCelular}|hyperpage}{6}
+\indexentry{AutomatoCelular@{AutomatoCelular}!AutomatoCelular@{AutomatoCelular}|hyperpage}{6}
+\indexentry{AutomatoCelular@{AutomatoCelular}!AutomatoCelular@{AutomatoCelular}|hyperpage}{6}
+\indexentry{AutomatoCelular@{AutomatoCelular}!AutomatoCelular@{AutomatoCelular}|hyperpage}{6}
+\indexentry{AutomatoCelular@{AutomatoCelular}!AutomatoCelular@{AutomatoCelular}|hyperpage}{6}
+\indexentry{AutomatoCelular@{AutomatoCelular}!$\sim $AutomatoCelular@{$\sim $AutomatoCelular}|hyperpage}{6}
+\indexentry{$\sim $AutomatoCelular@{$\sim $AutomatoCelular}!AutomatoCelular@{AutomatoCelular}|hyperpage}{6}
+\indexentry{AutomatoCelular@{AutomatoCelular}!aplicarTransicao@{aplicarTransicao}|hyperpage}{6}
+\indexentry{aplicarTransicao@{aplicarTransicao}!AutomatoCelular@{AutomatoCelular}|hyperpage}{6}
+\indexentry{AutomatoCelular@{AutomatoCelular}!carregarConfig@{carregarConfig}|hyperpage}{6}
+\indexentry{carregarConfig@{carregarConfig}!AutomatoCelular@{AutomatoCelular}|hyperpage}{6}
+\indexentry{AutomatoCelular@{AutomatoCelular}!DEBUG\_\discretionary {-}{}{}Imprimir@{DEBUG\_\discretionary {-}{}{}Imprimir}|hyperpage}{6}
+\indexentry{DEBUG\_\discretionary {-}{}{}Imprimir@{DEBUG\_\discretionary {-}{}{}Imprimir}!AutomatoCelular@{AutomatoCelular}|hyperpage}{6}
+\indexentry{AutomatoCelular@{AutomatoCelular}!gravarDadosGrafico@{gravarDadosGrafico}|hyperpage}{6}
+\indexentry{gravarDadosGrafico@{gravarDadosGrafico}!AutomatoCelular@{AutomatoCelular}|hyperpage}{6}
+\indexentry{AutomatoCelular@{AutomatoCelular}!stringParaDado@{stringParaDado}|hyperpage}{6}
+\indexentry{stringParaDado@{stringParaDado}!AutomatoCelular@{AutomatoCelular}|hyperpage}{6}
+\indexentry{CampoMedio@{CampoMedio}|hyperpage}{7}
+\indexentry{CampoMedio@{CampoMedio}!CampoMedio@{CampoMedio}|hyperpage}{7}
+\indexentry{CampoMedio@{CampoMedio}!CampoMedio@{CampoMedio}|hyperpage}{7}
+\indexentry{CampoMedio@{CampoMedio}!CampoMedio@{CampoMedio}|hyperpage}{7}
+\indexentry{CampoMedio@{CampoMedio}!CampoMedio@{CampoMedio}|hyperpage}{7}
+\indexentry{CampoMedio@{CampoMedio}!CampoMedio@{CampoMedio}|hyperpage}{7}
+\indexentry{CampoMedio@{CampoMedio}!CampoMedio@{CampoMedio}|hyperpage}{7}
+\indexentry{CampoMedio@{CampoMedio}!$\sim $CampoMedio@{$\sim $CampoMedio}|hyperpage}{7}
+\indexentry{$\sim $CampoMedio@{$\sim $CampoMedio}!CampoMedio@{CampoMedio}|hyperpage}{7}
+\indexentry{CampoMedio@{CampoMedio}!computarGeracao@{computarGeracao}|hyperpage}{7}
+\indexentry{computarGeracao@{computarGeracao}!CampoMedio@{CampoMedio}|hyperpage}{7}
+\indexentry{CampoMedio@{CampoMedio}!computarGeracao@{computarGeracao}|hyperpage}{7}
+\indexentry{computarGeracao@{computarGeracao}!CampoMedio@{CampoMedio}|hyperpage}{7}
+\indexentry{CampoMedio@{CampoMedio}!definirParametros@{definirParametros}|hyperpage}{7}
+\indexentry{definirParametros@{definirParametros}!CampoMedio@{CampoMedio}|hyperpage}{7}
+\indexentry{Celula@{Celula}|hyperpage}{8}
+\indexentry{Celula@{Celula}!Celula@{Celula}|hyperpage}{8}
+\indexentry{Celula@{Celula}!Celula@{Celula}|hyperpage}{8}
+\indexentry{Celula@{Celula}!Celula@{Celula}|hyperpage}{8}
+\indexentry{Celula@{Celula}!Celula@{Celula}|hyperpage}{8}
+\indexentry{Celula@{Celula}!$\sim $Celula@{$\sim $Celula}|hyperpage}{8}
+\indexentry{$\sim $Celula@{$\sim $Celula}!Celula@{Celula}|hyperpage}{8}
+\indexentry{Celula@{Celula}!operator=@{operator=}|hyperpage}{8}
+\indexentry{operator=@{operator=}!Celula@{Celula}|hyperpage}{8}
+\indexentry{Celula@{Celula}!AutomatoCelular@{AutomatoCelular}|hyperpage}{8}
+\indexentry{AutomatoCelular@{AutomatoCelular}!Celula@{Celula}|hyperpage}{8}
+\indexentry{CelulaLGCA@{CelulaLGCA}|hyperpage}{8}
+\indexentry{CelulaLGCA@{CelulaLGCA}!CelulaLGCA@{CelulaLGCA}|hyperpage}{9}
+\indexentry{CelulaLGCA@{CelulaLGCA}!CelulaLGCA@{CelulaLGCA}|hyperpage}{9}
+\indexentry{CelulaLGCA@{CelulaLGCA}!CelulaLGCA@{CelulaLGCA}|hyperpage}{9}
+\indexentry{CelulaLGCA@{CelulaLGCA}!CelulaLGCA@{CelulaLGCA}|hyperpage}{9}
+\indexentry{CelulaLGCA@{CelulaLGCA}!$\sim $CelulaLGCA@{$\sim $CelulaLGCA}|hyperpage}{9}
+\indexentry{$\sim $CelulaLGCA@{$\sim $CelulaLGCA}!CelulaLGCA@{CelulaLGCA}|hyperpage}{9}
+\indexentry{CelulaLGCA@{CelulaLGCA}!atualizarCelula@{atualizarCelula}|hyperpage}{9}
+\indexentry{atualizarCelula@{atualizarCelula}!CelulaLGCA@{CelulaLGCA}|hyperpage}{9}
+\indexentry{CelulaLGCA@{CelulaLGCA}!canalOposto@{canalOposto}|hyperpage}{9}
+\indexentry{canalOposto@{canalOposto}!CelulaLGCA@{CelulaLGCA}|hyperpage}{9}
+\indexentry{CelulaLGCA@{CelulaLGCA}!definirCanal@{definirCanal}|hyperpage}{9}
+\indexentry{definirCanal@{definirCanal}!CelulaLGCA@{CelulaLGCA}|hyperpage}{9}
+\indexentry{CelulaLGCA@{CelulaLGCA}!definirEstado@{definirEstado}|hyperpage}{9}
+\indexentry{definirEstado@{definirEstado}!CelulaLGCA@{CelulaLGCA}|hyperpage}{9}
+\indexentry{CelulaLGCA@{CelulaLGCA}!embaralharIndividuos@{embaralharIndividuos}|hyperpage}{9}
+\indexentry{embaralharIndividuos@{embaralharIndividuos}!CelulaLGCA@{CelulaLGCA}|hyperpage}{9}
+\indexentry{CelulaLGCA@{CelulaLGCA}!embaralharVetorInteiro@{embaralharVetorInteiro}|hyperpage}{9}
+\indexentry{embaralharVetorInteiro@{embaralharVetorInteiro}!CelulaLGCA@{CelulaLGCA}|hyperpage}{9}
+\indexentry{CelulaLGCA@{CelulaLGCA}!gerarAleatorio@{gerarAleatorio}|hyperpage}{9}
+\indexentry{gerarAleatorio@{gerarAleatorio}!CelulaLGCA@{CelulaLGCA}|hyperpage}{9}
+\indexentry{CelulaLGCA@{CelulaLGCA}!obterCanal@{obterCanal}|hyperpage}{9}
+\indexentry{obterCanal@{obterCanal}!CelulaLGCA@{CelulaLGCA}|hyperpage}{9}
+\indexentry{CelulaLGCA@{CelulaLGCA}!obterEstado@{obterEstado}|hyperpage}{9}
+\indexentry{obterEstado@{obterEstado}!CelulaLGCA@{CelulaLGCA}|hyperpage}{9}
+\indexentry{CelulaLGCA@{CelulaLGCA}!obterEstadoOposto@{obterEstadoOposto}|hyperpage}{10}
+\indexentry{obterEstadoOposto@{obterEstadoOposto}!CelulaLGCA@{CelulaLGCA}|hyperpage}{10}
+\indexentry{CelulaLGCA@{CelulaLGCA}!obterNi@{obterNi}|hyperpage}{10}
+\indexentry{obterNi@{obterNi}!CelulaLGCA@{CelulaLGCA}|hyperpage}{10}
+\indexentry{CelulaLGCA@{CelulaLGCA}!obterQuantidadeIndividuos@{obterQuantidadeIndividuos}|hyperpage}{10}
+\indexentry{obterQuantidadeIndividuos@{obterQuantidadeIndividuos}!CelulaLGCA@{CelulaLGCA}|hyperpage}{10}
+\indexentry{CelulaLGCA@{CelulaLGCA}!operator=@{operator=}|hyperpage}{10}
+\indexentry{operator=@{operator=}!CelulaLGCA@{CelulaLGCA}|hyperpage}{10}
+\indexentry{JanelaSDL@{JanelaSDL}|hyperpage}{10}
+\indexentry{JanelaSDL@{JanelaSDL}!JanelaSDL@{JanelaSDL}|hyperpage}{10}
+\indexentry{JanelaSDL@{JanelaSDL}!JanelaSDL@{JanelaSDL}|hyperpage}{10}
+\indexentry{JanelaSDL@{JanelaSDL}!JanelaSDL@{JanelaSDL}|hyperpage}{10}
+\indexentry{JanelaSDL@{JanelaSDL}!JanelaSDL@{JanelaSDL}|hyperpage}{10}
+\indexentry{JanelaSDL@{JanelaSDL}!$\sim $JanelaSDL@{$\sim $JanelaSDL}|hyperpage}{10}
+\indexentry{$\sim $JanelaSDL@{$\sim $JanelaSDL}!JanelaSDL@{JanelaSDL}|hyperpage}{10}
+\indexentry{JanelaSDL@{JanelaSDL}!atualizar@{atualizar}|hyperpage}{10}
+\indexentry{atualizar@{atualizar}!JanelaSDL@{JanelaSDL}|hyperpage}{10}
+\indexentry{JanelaSDL@{JanelaSDL}!definirDelay@{definirDelay}|hyperpage}{11}
+\indexentry{definirDelay@{definirDelay}!JanelaSDL@{JanelaSDL}|hyperpage}{11}
+\indexentry{JanelaSDL@{JanelaSDL}!definirDimensoes@{definirDimensoes}|hyperpage}{11}
+\indexentry{definirDimensoes@{definirDimensoes}!JanelaSDL@{JanelaSDL}|hyperpage}{11}
+\indexentry{JanelaSDL@{JanelaSDL}!definirPixel@{definirPixel}|hyperpage}{11}
+\indexentry{definirPixel@{definirPixel}!JanelaSDL@{JanelaSDL}|hyperpage}{11}
+\indexentry{JanelaSDL@{JanelaSDL}!definirPixel@{definirPixel}|hyperpage}{11}
+\indexentry{definirPixel@{definirPixel}!JanelaSDL@{JanelaSDL}|hyperpage}{11}
+\indexentry{JanelaSDL@{JanelaSDL}!definirTamanhoCelula@{definirTamanhoCelula}|hyperpage}{11}
+\indexentry{definirTamanhoCelula@{definirTamanhoCelula}!JanelaSDL@{JanelaSDL}|hyperpage}{11}
+\indexentry{JanelaSDL@{JanelaSDL}!gravarScreenshot@{gravarScreenshot}|hyperpage}{11}
+\indexentry{gravarScreenshot@{gravarScreenshot}!JanelaSDL@{JanelaSDL}|hyperpage}{11}
+\indexentry{JanelaSDL@{JanelaSDL}!inicializar@{inicializar}|hyperpage}{11}
+\indexentry{inicializar@{inicializar}!JanelaSDL@{JanelaSDL}|hyperpage}{11}
+\indexentry{JanelaSDL@{JanelaSDL}!obterParametros@{obterParametros}|hyperpage}{11}
+\indexentry{obterParametros@{obterParametros}!JanelaSDL@{JanelaSDL}|hyperpage}{11}
+\indexentry{LGCA@{LGCA}|hyperpage}{11}
+\indexentry{LGCA@{LGCA}!LGCA@{LGCA}|hyperpage}{11}
+\indexentry{LGCA@{LGCA}!LGCA@{LGCA}|hyperpage}{11}
+\indexentry{LGCA@{LGCA}!LGCA@{LGCA}|hyperpage}{12}
+\indexentry{LGCA@{LGCA}!LGCA@{LGCA}|hyperpage}{12}
+\indexentry{LGCA@{LGCA}!LGCA@{LGCA}|hyperpage}{12}
+\indexentry{LGCA@{LGCA}!LGCA@{LGCA}|hyperpage}{12}
+\indexentry{LGCA@{LGCA}!$\sim $LGCA@{$\sim $LGCA}|hyperpage}{12}
+\indexentry{$\sim $LGCA@{$\sim $LGCA}!LGCA@{LGCA}|hyperpage}{12}
+\indexentry{LGCA@{LGCA}!aplicarTransicao@{aplicarTransicao}|hyperpage}{12}
+\indexentry{aplicarTransicao@{aplicarTransicao}!LGCA@{LGCA}|hyperpage}{12}
+\indexentry{LGCA@{LGCA}!carregarEstado@{carregarEstado}|hyperpage}{12}
+\indexentry{carregarEstado@{carregarEstado}!LGCA@{LGCA}|hyperpage}{12}
+\indexentry{LGCA@{LGCA}!inicializar@{inicializar}|hyperpage}{12}
+\indexentry{inicializar@{inicializar}!LGCA@{LGCA}|hyperpage}{12}
+\indexentry{LGCA@{LGCA}!salvarEstado@{salvarEstado}|hyperpage}{12}
+\indexentry{salvarEstado@{salvarEstado}!LGCA@{LGCA}|hyperpage}{12}
+\indexentry{.dep.inc@{.dep.inc}|hyperpage}{13}
+\indexentry{Arquivo.cpp@{Arquivo.cpp}|hyperpage}{13}
+\indexentry{Arquivo.h@{Arquivo.h}|hyperpage}{13}
+\indexentry{AutomatoCelular.cpp@{AutomatoCelular.cpp}|hyperpage}{13}
+\indexentry{AutomatoCelular.h@{AutomatoCelular.h}|hyperpage}{14}
+\indexentry{AutomatoCelular.h@{AutomatoCelular.h}!FILE\_\discretionary {-}{}{}HOHLE\_\discretionary {-}{}{}GRAFICO@{FILE\_\discretionary {-}{}{}HOHLE\_\discretionary {-}{}{}GRAFICO}|hyperpage}{14}
+\indexentry{FILE\_\discretionary {-}{}{}HOHLE\_\discretionary {-}{}{}GRAFICO@{FILE\_\discretionary {-}{}{}HOHLE\_\discretionary {-}{}{}GRAFICO}!AutomatoCelular.h@{AutomatoCelular.h}|hyperpage}{14}
+\indexentry{AutomatoCelular.h@{AutomatoCelular.h}!INTERVALO\_\discretionary {-}{}{}SCREENSHOTS@{INTERVALO\_\discretionary {-}{}{}SCREENSHOTS}|hyperpage}{14}
+\indexentry{INTERVALO\_\discretionary {-}{}{}SCREENSHOTS@{INTERVALO\_\discretionary {-}{}{}SCREENSHOTS}!AutomatoCelular.h@{AutomatoCelular.h}|hyperpage}{14}
+\indexentry{CampoMedio.cpp@{CampoMedio.cpp}|hyperpage}{14}
+\indexentry{CampoMedio.h@{CampoMedio.h}|hyperpage}{14}
+\indexentry{CampoMedio.h@{CampoMedio.h}!FILE\_\discretionary {-}{}{}DADOS\_\discretionary {-}{}{}GRAFICO@{FILE\_\discretionary {-}{}{}DADOS\_\discretionary {-}{}{}GRAFICO}|hyperpage}{15}
+\indexentry{FILE\_\discretionary {-}{}{}DADOS\_\discretionary {-}{}{}GRAFICO@{FILE\_\discretionary {-}{}{}DADOS\_\discretionary {-}{}{}GRAFICO}!CampoMedio.h@{CampoMedio.h}|hyperpage}{15}
+\indexentry{Celula.cpp@{Celula.cpp}|hyperpage}{15}
+\indexentry{Celula.h@{Celula.h}|hyperpage}{15}
+\indexentry{Celula.h@{Celula.h}!E@{E}|hyperpage}{15}
+\indexentry{E@{E}!Celula.h@{Celula.h}|hyperpage}{15}
+\indexentry{Celula.h@{Celula.h}!N@{N}|hyperpage}{15}
+\indexentry{N@{N}!Celula.h@{Celula.h}|hyperpage}{15}
+\indexentry{Celula.h@{Celula.h}!NE@{NE}|hyperpage}{16}
+\indexentry{NE@{NE}!Celula.h@{Celula.h}|hyperpage}{16}
+\indexentry{Celula.h@{Celula.h}!NW@{NW}|hyperpage}{16}
+\indexentry{NW@{NW}!Celula.h@{Celula.h}|hyperpage}{16}
+\indexentry{Celula.h@{Celula.h}!SE@{SE}|hyperpage}{16}
+\indexentry{SE@{SE}!Celula.h@{Celula.h}|hyperpage}{16}
+\indexentry{Celula.h@{Celula.h}!SW@{SW}|hyperpage}{16}
+\indexentry{SW@{SW}!Celula.h@{Celula.h}|hyperpage}{16}
+\indexentry{Celula.h@{Celula.h}!TOT\_\discretionary {-}{}{}VIZINHOS@{TOT\_\discretionary {-}{}{}VIZINHOS}|hyperpage}{16}
+\indexentry{TOT\_\discretionary {-}{}{}VIZINHOS@{TOT\_\discretionary {-}{}{}VIZINHOS}!Celula.h@{Celula.h}|hyperpage}{16}
+\indexentry{Celula.h@{Celula.h}!W@{W}|hyperpage}{16}
+\indexentry{W@{W}!Celula.h@{Celula.h}|hyperpage}{16}
+\indexentry{CelulaLGCA.cpp@{CelulaLGCA.cpp}|hyperpage}{16}
+\indexentry{CelulaLGCA.h@{CelulaLGCA.h}|hyperpage}{16}
+\indexentry{CelulaLGCA.h@{CelulaLGCA.h}!I@{I}|hyperpage}{17}
+\indexentry{I@{I}!CelulaLGCA.h@{CelulaLGCA.h}|hyperpage}{17}
+\indexentry{CelulaLGCA.h@{CelulaLGCA.h}!L@{L}|hyperpage}{17}
+\indexentry{L@{L}!CelulaLGCA.h@{CelulaLGCA.h}|hyperpage}{17}
+\indexentry{CelulaLGCA.h@{CelulaLGCA.h}!R@{R}|hyperpage}{17}
+\indexentry{R@{R}!CelulaLGCA.h@{CelulaLGCA.h}|hyperpage}{17}
+\indexentry{CelulaLGCA.h@{CelulaLGCA.h}!S@{S}|hyperpage}{17}
+\indexentry{S@{S}!CelulaLGCA.h@{CelulaLGCA.h}|hyperpage}{17}
+\indexentry{CelulaLGCA.h@{CelulaLGCA.h}!V@{V}|hyperpage}{17}
+\indexentry{V@{V}!CelulaLGCA.h@{CelulaLGCA.h}|hyperpage}{17}
+\indexentry{JanelaSDL.cpp@{JanelaSDL.cpp}|hyperpage}{17}
+\indexentry{JanelaSDL.h@{JanelaSDL.h}|hyperpage}{17}
+\indexentry{LGCA.cpp@{LGCA.cpp}|hyperpage}{18}
+\indexentry{LGCA.h@{LGCA.h}|hyperpage}{18}
+\indexentry{LGCA.h@{LGCA.h}!FILE\_\discretionary {-}{}{}ESTADO@{FILE\_\discretionary {-}{}{}ESTADO}|hyperpage}{18}
+\indexentry{FILE\_\discretionary {-}{}{}ESTADO@{FILE\_\discretionary {-}{}{}ESTADO}!LGCA.h@{LGCA.h}|hyperpage}{18}
+\indexentry{LGCA.h@{LGCA.h}!FILE\_\discretionary {-}{}{}GRAFICO\_\discretionary {-}{}{}IR@{FILE\_\discretionary {-}{}{}GRAFICO\_\discretionary {-}{}{}IR}|hyperpage}{18}
+\indexentry{FILE\_\discretionary {-}{}{}GRAFICO\_\discretionary {-}{}{}IR@{FILE\_\discretionary {-}{}{}GRAFICO\_\discretionary {-}{}{}IR}!LGCA.h@{LGCA.h}|hyperpage}{18}
+\indexentry{LGCA.h@{LGCA.h}!FILE\_\discretionary {-}{}{}GRAFICO\_\discretionary {-}{}{}MF@{FILE\_\discretionary {-}{}{}GRAFICO\_\discretionary {-}{}{}MF}|hyperpage}{18}
+\indexentry{FILE\_\discretionary {-}{}{}GRAFICO\_\discretionary {-}{}{}MF@{FILE\_\discretionary {-}{}{}GRAFICO\_\discretionary {-}{}{}MF}!LGCA.h@{LGCA.h}|hyperpage}{18}
+\indexentry{LGCA.h@{LGCA.h}!FILE\_\discretionary {-}{}{}GRAFICO\_\discretionary {-}{}{}S@{FILE\_\discretionary {-}{}{}GRAFICO\_\discretionary {-}{}{}S}|hyperpage}{18}
+\indexentry{FILE\_\discretionary {-}{}{}GRAFICO\_\discretionary {-}{}{}S@{FILE\_\discretionary {-}{}{}GRAFICO\_\discretionary {-}{}{}S}!LGCA.h@{LGCA.h}|hyperpage}{18}
+\indexentry{main.cpp@{main.cpp}|hyperpage}{18}
+\indexentry{main.cpp@{main.cpp}!ca\_\discretionary {-}{}{}hohle@{ca\_\discretionary {-}{}{}hohle}|hyperpage}{19}
+\indexentry{ca\_\discretionary {-}{}{}hohle@{ca\_\discretionary {-}{}{}hohle}!main.cpp@{main.cpp}|hyperpage}{19}
+\indexentry{main.cpp@{main.cpp}!lgca\_\discretionary {-}{}{}novo@{lgca\_\discretionary {-}{}{}novo}|hyperpage}{19}
+\indexentry{lgca\_\discretionary {-}{}{}novo@{lgca\_\discretionary {-}{}{}novo}!main.cpp@{main.cpp}|hyperpage}{19}
+\indexentry{main.cpp@{main.cpp}!lgca\_\discretionary {-}{}{}salvo@{lgca\_\discretionary {-}{}{}salvo}|hyperpage}{19}
+\indexentry{lgca\_\discretionary {-}{}{}salvo@{lgca\_\discretionary {-}{}{}salvo}!main.cpp@{main.cpp}|hyperpage}{19}
+\indexentry{main.cpp@{main.cpp}!main@{main}|hyperpage}{19}
+\indexentry{main@{main}!main.cpp@{main.cpp}|hyperpage}{19}
+\indexentry{main.cpp@{main.cpp}!mean\_\discretionary {-}{}{}field@{mean\_\discretionary {-}{}{}field}|hyperpage}{19}
+\indexentry{mean\_\discretionary {-}{}{}field@{mean\_\discretionary {-}{}{}field}!main.cpp@{main.cpp}|hyperpage}{19}
+\indexentry{main.cpp@{main.cpp}!processar\_\discretionary {-}{}{}linha\_\discretionary {-}{}{}comando@{processar\_\discretionary {-}{}{}linha\_\discretionary {-}{}{}comando}|hyperpage}{19}
+\indexentry{processar\_\discretionary {-}{}{}linha\_\discretionary {-}{}{}comando@{processar\_\discretionary {-}{}{}linha\_\discretionary {-}{}{}comando}!main.cpp@{main.cpp}|hyperpage}{19}

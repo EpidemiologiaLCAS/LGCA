@@ -1,0 +1,208 @@
+\hypertarget{class_celula_l_g_c_a}{
+\section{Referência da Classe CelulaLGCA}
+\label{class_celula_l_g_c_a}\index{CelulaLGCA@{CelulaLGCA}}
+}
+
+
+{\ttfamily \#include $<$CelulaLGCA.h$>$}
+
+\subsection*{Métodos Públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_celula_l_g_c_a_a52767adf8cfd8cfc869aec355c35fac0}{CelulaLGCA} ()
+\item 
+\hyperlink{class_celula_l_g_c_a_a618ab083b170b0505f7ec07f9e0fb587}{CelulaLGCA} (const \hyperlink{class_celula_l_g_c_a}{CelulaLGCA} \&orig)
+\item 
+virtual \hyperlink{class_celula_l_g_c_a_ab4ef33f8d6639215db3c812bb363bb68}{$\sim$CelulaLGCA} ()
+\item 
+\hyperlink{class_celula_l_g_c_a}{CelulaLGCA} \& \hyperlink{class_celula_l_g_c_a_abf258dcce1b6050e38bd9f8f52809910}{operator=} (const \hyperlink{class_celula_l_g_c_a}{CelulaLGCA} \&c)
+\item 
+void \hyperlink{class_celula_l_g_c_a_add0a2e26fe28d849fdbddd833193195a}{definirEstado} (const int \&canal, const int \&estado)
+\item 
+void \hyperlink{class_celula_l_g_c_a_a3cb0cad5455b24b65b19546c3c106c8f}{definirCanal} (const int \&canal, const int \&estado)
+\item 
+int \hyperlink{class_celula_l_g_c_a_abd7206505d13b59950e2a7acd7ea81e9}{obterEstado} (const int \&canal)
+\item 
+int \hyperlink{class_celula_l_g_c_a_a765719e7d27cbf7644fdc938a47792d1}{obterNi} (void)
+\item 
+void \hyperlink{class_celula_l_g_c_a_a784f3d9f05aaca8acfd8bafee6a08e86}{obterQuantidadeIndividuos} (int \&i, int \&r, int \&s)
+\item 
+void \hyperlink{class_celula_l_g_c_a_a67069fbfc061a3cb4775f5dc3bb6cb72}{embaralharIndividuos} (void)
+\item 
+int \hyperlink{class_celula_l_g_c_a_a9e4484facaa4a58f12fdbbc03c60d252}{obterEstadoOposto} (const int \&canal)
+\item 
+int \hyperlink{class_celula_l_g_c_a_a254a52a876e23cdc38a03c903190d176}{obterCanal} (const int \&canal)
+\item 
+void \hyperlink{class_celula_l_g_c_a_aca6db88c84fb8d218d0b89b7ce375719}{atualizarCelula} (void)
+\end{DoxyCompactItemize}
+\subsection*{Métodos Públicos Estáticos}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{class_celula_l_g_c_a_ab54a57bf5740546879d4f6c0e5b2a5e5}{canalOposto} (const int \&canal)
+\item 
+static int \hyperlink{class_celula_l_g_c_a_a18f9c58a1cb10eed0daeef0c33754543}{gerarAleatorio} (const int \&inf, const int \&sup)
+\item 
+static void \hyperlink{class_celula_l_g_c_a_ae9c99aafdaa0372cb492be5149d6bf48}{embaralharVetorInteiro} (int $\ast$vetor, const int \&tamanho)
+\end{DoxyCompactItemize}
+
+
+\subsection{Construtores \& Destrutores}
+\hypertarget{class_celula_l_g_c_a_a52767adf8cfd8cfc869aec355c35fac0}{
+\index{CelulaLGCA@{CelulaLGCA}!CelulaLGCA@{CelulaLGCA}}
+\index{CelulaLGCA@{CelulaLGCA}!CelulaLGCA@{CelulaLGCA}}
+\subsubsection[{CelulaLGCA}]{\setlength{\rightskip}{0pt plus 5cm}CelulaLGCA::CelulaLGCA (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{class_celula_l_g_c_a_a52767adf8cfd8cfc869aec355c35fac0}
+\hypertarget{class_celula_l_g_c_a_a618ab083b170b0505f7ec07f9e0fb587}{
+\index{CelulaLGCA@{CelulaLGCA}!CelulaLGCA@{CelulaLGCA}}
+\index{CelulaLGCA@{CelulaLGCA}!CelulaLGCA@{CelulaLGCA}}
+\subsubsection[{CelulaLGCA}]{\setlength{\rightskip}{0pt plus 5cm}CelulaLGCA::CelulaLGCA (
+\begin{DoxyParamCaption}
+\item[{const {\bf CelulaLGCA} \&}]{orig}
+\end{DoxyParamCaption}
+)}}
+\label{class_celula_l_g_c_a_a618ab083b170b0505f7ec07f9e0fb587}
+\hypertarget{class_celula_l_g_c_a_ab4ef33f8d6639215db3c812bb363bb68}{
+\index{CelulaLGCA@{CelulaLGCA}!$\sim$CelulaLGCA@{$\sim$CelulaLGCA}}
+\index{$\sim$CelulaLGCA@{$\sim$CelulaLGCA}!CelulaLGCA@{CelulaLGCA}}
+\subsubsection[{$\sim$CelulaLGCA}]{\setlength{\rightskip}{0pt plus 5cm}CelulaLGCA::$\sim$CelulaLGCA (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{class_celula_l_g_c_a_ab4ef33f8d6639215db3c812bb363bb68}
+
+
+\subsection{Métodos}
+\hypertarget{class_celula_l_g_c_a_aca6db88c84fb8d218d0b89b7ce375719}{
+\index{CelulaLGCA@{CelulaLGCA}!atualizarCelula@{atualizarCelula}}
+\index{atualizarCelula@{atualizarCelula}!CelulaLGCA@{CelulaLGCA}}
+\subsubsection[{atualizarCelula}]{\setlength{\rightskip}{0pt plus 5cm}void CelulaLGCA::atualizarCelula (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}
+\label{class_celula_l_g_c_a_aca6db88c84fb8d218d0b89b7ce375719}
+\hypertarget{class_celula_l_g_c_a_ab54a57bf5740546879d4f6c0e5b2a5e5}{
+\index{CelulaLGCA@{CelulaLGCA}!canalOposto@{canalOposto}}
+\index{canalOposto@{canalOposto}!CelulaLGCA@{CelulaLGCA}}
+\subsubsection[{canalOposto}]{\setlength{\rightskip}{0pt plus 5cm}int CelulaLGCA::canalOposto (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{canal}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_celula_l_g_c_a_ab54a57bf5740546879d4f6c0e5b2a5e5}
+\hypertarget{class_celula_l_g_c_a_a3cb0cad5455b24b65b19546c3c106c8f}{
+\index{CelulaLGCA@{CelulaLGCA}!definirCanal@{definirCanal}}
+\index{definirCanal@{definirCanal}!CelulaLGCA@{CelulaLGCA}}
+\subsubsection[{definirCanal}]{\setlength{\rightskip}{0pt plus 5cm}void CelulaLGCA::definirCanal (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{canal, }
+\item[{const int \&}]{estado}
+\end{DoxyParamCaption}
+)}}
+\label{class_celula_l_g_c_a_a3cb0cad5455b24b65b19546c3c106c8f}
+\hypertarget{class_celula_l_g_c_a_add0a2e26fe28d849fdbddd833193195a}{
+\index{CelulaLGCA@{CelulaLGCA}!definirEstado@{definirEstado}}
+\index{definirEstado@{definirEstado}!CelulaLGCA@{CelulaLGCA}}
+\subsubsection[{definirEstado}]{\setlength{\rightskip}{0pt plus 5cm}void CelulaLGCA::definirEstado (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{canal, }
+\item[{const int \&}]{estado}
+\end{DoxyParamCaption}
+)}}
+\label{class_celula_l_g_c_a_add0a2e26fe28d849fdbddd833193195a}
+\hypertarget{class_celula_l_g_c_a_a67069fbfc061a3cb4775f5dc3bb6cb72}{
+\index{CelulaLGCA@{CelulaLGCA}!embaralharIndividuos@{embaralharIndividuos}}
+\index{embaralharIndividuos@{embaralharIndividuos}!CelulaLGCA@{CelulaLGCA}}
+\subsubsection[{embaralharIndividuos}]{\setlength{\rightskip}{0pt plus 5cm}void CelulaLGCA::embaralharIndividuos (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}
+\label{class_celula_l_g_c_a_a67069fbfc061a3cb4775f5dc3bb6cb72}
+\hypertarget{class_celula_l_g_c_a_ae9c99aafdaa0372cb492be5149d6bf48}{
+\index{CelulaLGCA@{CelulaLGCA}!embaralharVetorInteiro@{embaralharVetorInteiro}}
+\index{embaralharVetorInteiro@{embaralharVetorInteiro}!CelulaLGCA@{CelulaLGCA}}
+\subsubsection[{embaralharVetorInteiro}]{\setlength{\rightskip}{0pt plus 5cm}void CelulaLGCA::embaralharVetorInteiro (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{vetor, }
+\item[{const int \&}]{tamanho}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_celula_l_g_c_a_ae9c99aafdaa0372cb492be5149d6bf48}
+\hypertarget{class_celula_l_g_c_a_a18f9c58a1cb10eed0daeef0c33754543}{
+\index{CelulaLGCA@{CelulaLGCA}!gerarAleatorio@{gerarAleatorio}}
+\index{gerarAleatorio@{gerarAleatorio}!CelulaLGCA@{CelulaLGCA}}
+\subsubsection[{gerarAleatorio}]{\setlength{\rightskip}{0pt plus 5cm}int CelulaLGCA::gerarAleatorio (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{inf, }
+\item[{const int \&}]{sup}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_celula_l_g_c_a_a18f9c58a1cb10eed0daeef0c33754543}
+\hypertarget{class_celula_l_g_c_a_a254a52a876e23cdc38a03c903190d176}{
+\index{CelulaLGCA@{CelulaLGCA}!obterCanal@{obterCanal}}
+\index{obterCanal@{obterCanal}!CelulaLGCA@{CelulaLGCA}}
+\subsubsection[{obterCanal}]{\setlength{\rightskip}{0pt plus 5cm}int CelulaLGCA::obterCanal (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{canal}
+\end{DoxyParamCaption}
+)}}
+\label{class_celula_l_g_c_a_a254a52a876e23cdc38a03c903190d176}
+\hypertarget{class_celula_l_g_c_a_abd7206505d13b59950e2a7acd7ea81e9}{
+\index{CelulaLGCA@{CelulaLGCA}!obterEstado@{obterEstado}}
+\index{obterEstado@{obterEstado}!CelulaLGCA@{CelulaLGCA}}
+\subsubsection[{obterEstado}]{\setlength{\rightskip}{0pt plus 5cm}int CelulaLGCA::obterEstado (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{canal}
+\end{DoxyParamCaption}
+)}}
+\label{class_celula_l_g_c_a_abd7206505d13b59950e2a7acd7ea81e9}
+\hypertarget{class_celula_l_g_c_a_a9e4484facaa4a58f12fdbbc03c60d252}{
+\index{CelulaLGCA@{CelulaLGCA}!obterEstadoOposto@{obterEstadoOposto}}
+\index{obterEstadoOposto@{obterEstadoOposto}!CelulaLGCA@{CelulaLGCA}}
+\subsubsection[{obterEstadoOposto}]{\setlength{\rightskip}{0pt plus 5cm}int CelulaLGCA::obterEstadoOposto (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{canal}
+\end{DoxyParamCaption}
+)}}
+\label{class_celula_l_g_c_a_a9e4484facaa4a58f12fdbbc03c60d252}
+\hypertarget{class_celula_l_g_c_a_a765719e7d27cbf7644fdc938a47792d1}{
+\index{CelulaLGCA@{CelulaLGCA}!obterNi@{obterNi}}
+\index{obterNi@{obterNi}!CelulaLGCA@{CelulaLGCA}}
+\subsubsection[{obterNi}]{\setlength{\rightskip}{0pt plus 5cm}int CelulaLGCA::obterNi (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}
+\label{class_celula_l_g_c_a_a765719e7d27cbf7644fdc938a47792d1}
+\hypertarget{class_celula_l_g_c_a_a784f3d9f05aaca8acfd8bafee6a08e86}{
+\index{CelulaLGCA@{CelulaLGCA}!obterQuantidadeIndividuos@{obterQuantidadeIndividuos}}
+\index{obterQuantidadeIndividuos@{obterQuantidadeIndividuos}!CelulaLGCA@{CelulaLGCA}}
+\subsubsection[{obterQuantidadeIndividuos}]{\setlength{\rightskip}{0pt plus 5cm}void CelulaLGCA::obterQuantidadeIndividuos (
+\begin{DoxyParamCaption}
+\item[{int \&}]{i, }
+\item[{int \&}]{r, }
+\item[{int \&}]{s}
+\end{DoxyParamCaption}
+)}}
+\label{class_celula_l_g_c_a_a784f3d9f05aaca8acfd8bafee6a08e86}
+\hypertarget{class_celula_l_g_c_a_abf258dcce1b6050e38bd9f8f52809910}{
+\index{CelulaLGCA@{CelulaLGCA}!operator=@{operator=}}
+\index{operator=@{operator=}!CelulaLGCA@{CelulaLGCA}}
+\subsubsection[{operator=}]{\setlength{\rightskip}{0pt plus 5cm}{\bf CelulaLGCA} \& CelulaLGCA::operator= (
+\begin{DoxyParamCaption}
+\item[{const {\bf CelulaLGCA} \&}]{c}
+\end{DoxyParamCaption}
+)}}
+\label{class_celula_l_g_c_a_abf258dcce1b6050e38bd9f8f52809910}
+
+
+A documentação para esta classe foi gerada a partir dos seguintes arquivos:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_celula_l_g_c_a_8h}{CelulaLGCA.h}\item 
+\hyperlink{_celula_l_g_c_a_8cpp}{CelulaLGCA.cpp}\end{DoxyCompactItemize}

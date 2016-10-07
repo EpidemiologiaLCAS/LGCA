@@ -1,0 +1,301 @@
+\begin{theindex}
+
+  \item {$\sim $Arquivo}
+    \subitem {Arquivo}, \hyperpage{5}
+  \item {$\sim $AutomatoCelular}
+    \subitem {AutomatoCelular}, \hyperpage{6}
+  \item {$\sim $CampoMedio}
+    \subitem {CampoMedio}, \hyperpage{7}
+  \item {$\sim $Celula}
+    \subitem {Celula}, \hyperpage{8}
+  \item {$\sim $CelulaLGCA}
+    \subitem {CelulaLGCA}, \hyperpage{9}
+  \item {$\sim $JanelaSDL}
+    \subitem {JanelaSDL}, \hyperpage{10}
+  \item {$\sim $LGCA}
+    \subitem {LGCA}, \hyperpage{12}
+  \item {.dep.inc}, \hyperpage{13}
+
+  \indexspace
+
+  \item {aplicarTransicao}
+    \subitem {AutomatoCelular}, \hyperpage{6}
+    \subitem {LGCA}, \hyperpage{12}
+  \item {Arquivo}, \hyperpage{5}
+    \subitem {$\sim $Arquivo}, \hyperpage{5}
+    \subitem {Arquivo}, \hyperpage{5}
+    \subitem {fechar}, \hyperpage{5}
+    \subitem {gravarLinha}, \hyperpage{5}
+    \subitem {obterLinha}, \hyperpage{5}
+  \item {Arquivo.cpp}, \hyperpage{13}
+  \item {Arquivo.h}, \hyperpage{13}
+  \item {atualizar}
+    \subitem {JanelaSDL}, \hyperpage{10}
+  \item {atualizarCelula}
+    \subitem {CelulaLGCA}, \hyperpage{9}
+  \item {AutomatoCelular}, \hyperpage{6}
+    \subitem {$\sim $AutomatoCelular}, \hyperpage{6}
+    \subitem {aplicarTransicao}, \hyperpage{6}
+    \subitem {AutomatoCelular}, \hyperpage{6}
+    \subitem {carregarConfig}, \hyperpage{6}
+    \subitem {Celula}, \hyperpage{8}
+    \subitem {DEBUG\_\discretionary {-}{}{}Imprimir}, \hyperpage{6}
+    \subitem {gravarDadosGrafico}, \hyperpage{6}
+    \subitem {stringParaDado}, \hyperpage{6}
+  \item {AutomatoCelular.cpp}, \hyperpage{13}
+  \item {AutomatoCelular.h}, \hyperpage{14}
+    \subitem {FILE\_\discretionary {-}{}{}HOHLE\_\discretionary {-}{}{}GRAFICO}, 
+		\hyperpage{14}
+    \subitem {INTERVALO\_\discretionary {-}{}{}SCREENSHOTS}, 
+		\hyperpage{14}
+
+  \indexspace
+
+  \item {ca\_\discretionary {-}{}{}hohle}
+    \subitem {main.cpp}, \hyperpage{19}
+  \item {CampoMedio}, \hyperpage{7}
+    \subitem {$\sim $CampoMedio}, \hyperpage{7}
+    \subitem {CampoMedio}, \hyperpage{7}
+    \subitem {computarGeracao}, \hyperpage{7}
+    \subitem {definirParametros}, \hyperpage{7}
+  \item {CampoMedio.cpp}, \hyperpage{14}
+  \item {CampoMedio.h}, \hyperpage{14}
+    \subitem {FILE\_\discretionary {-}{}{}DADOS\_\discretionary {-}{}{}GRAFICO}, 
+		\hyperpage{15}
+  \item {canalOposto}
+    \subitem {CelulaLGCA}, \hyperpage{9}
+  \item {carregarConfig}
+    \subitem {AutomatoCelular}, \hyperpage{6}
+  \item {carregarEstado}
+    \subitem {LGCA}, \hyperpage{12}
+  \item {Celula}, \hyperpage{8}
+    \subitem {$\sim $Celula}, \hyperpage{8}
+    \subitem {AutomatoCelular}, \hyperpage{8}
+    \subitem {Celula}, \hyperpage{8}
+    \subitem {operator=}, \hyperpage{8}
+  \item {Celula.cpp}, \hyperpage{15}
+  \item {Celula.h}, \hyperpage{15}
+    \subitem {E}, \hyperpage{15}
+    \subitem {N}, \hyperpage{15}
+    \subitem {NE}, \hyperpage{16}
+    \subitem {NW}, \hyperpage{16}
+    \subitem {SE}, \hyperpage{16}
+    \subitem {SW}, \hyperpage{16}
+    \subitem {TOT\_\discretionary {-}{}{}VIZINHOS}, \hyperpage{16}
+    \subitem {W}, \hyperpage{16}
+  \item {CelulaLGCA}, \hyperpage{8}
+    \subitem {$\sim $CelulaLGCA}, \hyperpage{9}
+    \subitem {atualizarCelula}, \hyperpage{9}
+    \subitem {canalOposto}, \hyperpage{9}
+    \subitem {CelulaLGCA}, \hyperpage{9}
+    \subitem {definirCanal}, \hyperpage{9}
+    \subitem {definirEstado}, \hyperpage{9}
+    \subitem {embaralharIndividuos}, \hyperpage{9}
+    \subitem {embaralharVetorInteiro}, \hyperpage{9}
+    \subitem {gerarAleatorio}, \hyperpage{9}
+    \subitem {obterCanal}, \hyperpage{9}
+    \subitem {obterEstado}, \hyperpage{9}
+    \subitem {obterEstadoOposto}, \hyperpage{10}
+    \subitem {obterNi}, \hyperpage{10}
+    \subitem {obterQuantidadeIndividuos}, \hyperpage{10}
+    \subitem {operator=}, \hyperpage{10}
+  \item {CelulaLGCA.cpp}, \hyperpage{16}
+  \item {CelulaLGCA.h}, \hyperpage{16}
+    \subitem {I}, \hyperpage{17}
+    \subitem {L}, \hyperpage{17}
+    \subitem {R}, \hyperpage{17}
+    \subitem {S}, \hyperpage{17}
+    \subitem {V}, \hyperpage{17}
+  \item {computarGeracao}
+    \subitem {CampoMedio}, \hyperpage{7}
+
+  \indexspace
+
+  \item {DEBUG\_\discretionary {-}{}{}Imprimir}
+    \subitem {AutomatoCelular}, \hyperpage{6}
+  \item {definirCanal}
+    \subitem {CelulaLGCA}, \hyperpage{9}
+  \item {definirDelay}
+    \subitem {JanelaSDL}, \hyperpage{11}
+  \item {definirDimensoes}
+    \subitem {JanelaSDL}, \hyperpage{11}
+  \item {definirEstado}
+    \subitem {CelulaLGCA}, \hyperpage{9}
+  \item {definirParametros}
+    \subitem {CampoMedio}, \hyperpage{7}
+  \item {definirPixel}
+    \subitem {JanelaSDL}, \hyperpage{11}
+  \item {definirTamanhoCelula}
+    \subitem {JanelaSDL}, \hyperpage{11}
+
+  \indexspace
+
+  \item {E}
+    \subitem {Celula.h}, \hyperpage{15}
+  \item {embaralharIndividuos}
+    \subitem {CelulaLGCA}, \hyperpage{9}
+  \item {embaralharVetorInteiro}
+    \subitem {CelulaLGCA}, \hyperpage{9}
+
+  \indexspace
+
+  \item {fechar}
+    \subitem {Arquivo}, \hyperpage{5}
+  \item {FILE\_\discretionary {-}{}{}DADOS\_\discretionary {-}{}{}GRAFICO}
+    \subitem {CampoMedio.h}, \hyperpage{15}
+  \item {FILE\_\discretionary {-}{}{}ESTADO}
+    \subitem {LGCA.h}, \hyperpage{18}
+  \item {FILE\_\discretionary {-}{}{}GRAFICO\_\discretionary {-}{}{}IR}
+    \subitem {LGCA.h}, \hyperpage{18}
+  \item {FILE\_\discretionary {-}{}{}GRAFICO\_\discretionary {-}{}{}MF}
+    \subitem {LGCA.h}, \hyperpage{18}
+  \item {FILE\_\discretionary {-}{}{}GRAFICO\_\discretionary {-}{}{}S}
+    \subitem {LGCA.h}, \hyperpage{18}
+  \item {FILE\_\discretionary {-}{}{}HOHLE\_\discretionary {-}{}{}GRAFICO}
+    \subitem {AutomatoCelular.h}, \hyperpage{14}
+
+  \indexspace
+
+  \item {gerarAleatorio}
+    \subitem {CelulaLGCA}, \hyperpage{9}
+  \item {gravarDadosGrafico}
+    \subitem {AutomatoCelular}, \hyperpage{6}
+  \item {gravarLinha}
+    \subitem {Arquivo}, \hyperpage{5}
+  \item {gravarScreenshot}
+    \subitem {JanelaSDL}, \hyperpage{11}
+
+  \indexspace
+
+  \item {I}
+    \subitem {CelulaLGCA.h}, \hyperpage{17}
+  \item {inicializar}
+    \subitem {JanelaSDL}, \hyperpage{11}
+    \subitem {LGCA}, \hyperpage{12}
+  \item {INTERVALO\_\discretionary {-}{}{}SCREENSHOTS}
+    \subitem {AutomatoCelular.h}, \hyperpage{14}
+
+  \indexspace
+
+  \item {JanelaSDL}, \hyperpage{10}
+    \subitem {$\sim $JanelaSDL}, \hyperpage{10}
+    \subitem {atualizar}, \hyperpage{10}
+    \subitem {definirDelay}, \hyperpage{11}
+    \subitem {definirDimensoes}, \hyperpage{11}
+    \subitem {definirPixel}, \hyperpage{11}
+    \subitem {definirTamanhoCelula}, \hyperpage{11}
+    \subitem {gravarScreenshot}, \hyperpage{11}
+    \subitem {inicializar}, \hyperpage{11}
+    \subitem {JanelaSDL}, \hyperpage{10}
+    \subitem {obterParametros}, \hyperpage{11}
+  \item {JanelaSDL.cpp}, \hyperpage{17}
+  \item {JanelaSDL.h}, \hyperpage{17}
+
+  \indexspace
+
+  \item {L}
+    \subitem {CelulaLGCA.h}, \hyperpage{17}
+  \item {LGCA}, \hyperpage{11}
+    \subitem {$\sim $LGCA}, \hyperpage{12}
+    \subitem {aplicarTransicao}, \hyperpage{12}
+    \subitem {carregarEstado}, \hyperpage{12}
+    \subitem {inicializar}, \hyperpage{12}
+    \subitem {LGCA}, \hyperpage{11, 12}
+    \subitem {salvarEstado}, \hyperpage{12}
+  \item {LGCA.cpp}, \hyperpage{18}
+  \item {LGCA.h}, \hyperpage{18}
+    \subitem {FILE\_\discretionary {-}{}{}ESTADO}, \hyperpage{18}
+    \subitem {FILE\_\discretionary {-}{}{}GRAFICO\_\discretionary {-}{}{}IR}, 
+		\hyperpage{18}
+    \subitem {FILE\_\discretionary {-}{}{}GRAFICO\_\discretionary {-}{}{}MF}, 
+		\hyperpage{18}
+    \subitem {FILE\_\discretionary {-}{}{}GRAFICO\_\discretionary {-}{}{}S}, 
+		\hyperpage{18}
+  \item {lgca\_\discretionary {-}{}{}novo}
+    \subitem {main.cpp}, \hyperpage{19}
+  \item {lgca\_\discretionary {-}{}{}salvo}
+    \subitem {main.cpp}, \hyperpage{19}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.cpp}, \hyperpage{19}
+  \item {main.cpp}, \hyperpage{18}
+    \subitem {ca\_\discretionary {-}{}{}hohle}, \hyperpage{19}
+    \subitem {lgca\_\discretionary {-}{}{}novo}, \hyperpage{19}
+    \subitem {lgca\_\discretionary {-}{}{}salvo}, \hyperpage{19}
+    \subitem {main}, \hyperpage{19}
+    \subitem {mean\_\discretionary {-}{}{}field}, \hyperpage{19}
+    \subitem {processar\_\discretionary {-}{}{}linha\_\discretionary {-}{}{}comando}, 
+		\hyperpage{19}
+  \item {mean\_\discretionary {-}{}{}field}
+    \subitem {main.cpp}, \hyperpage{19}
+
+  \indexspace
+
+  \item {N}
+    \subitem {Celula.h}, \hyperpage{15}
+  \item {NE}
+    \subitem {Celula.h}, \hyperpage{16}
+  \item {NW}
+    \subitem {Celula.h}, \hyperpage{16}
+
+  \indexspace
+
+  \item {obterCanal}
+    \subitem {CelulaLGCA}, \hyperpage{9}
+  \item {obterEstado}
+    \subitem {CelulaLGCA}, \hyperpage{9}
+  \item {obterEstadoOposto}
+    \subitem {CelulaLGCA}, \hyperpage{10}
+  \item {obterLinha}
+    \subitem {Arquivo}, \hyperpage{5}
+  \item {obterNi}
+    \subitem {CelulaLGCA}, \hyperpage{10}
+  \item {obterParametros}
+    \subitem {JanelaSDL}, \hyperpage{11}
+  \item {obterQuantidadeIndividuos}
+    \subitem {CelulaLGCA}, \hyperpage{10}
+  \item {operator=}
+    \subitem {Celula}, \hyperpage{8}
+    \subitem {CelulaLGCA}, \hyperpage{10}
+
+  \indexspace
+
+  \item {processar\_\discretionary {-}{}{}linha\_\discretionary {-}{}{}comando}
+    \subitem {main.cpp}, \hyperpage{19}
+
+  \indexspace
+
+  \item {R}
+    \subitem {CelulaLGCA.h}, \hyperpage{17}
+
+  \indexspace
+
+  \item {S}
+    \subitem {CelulaLGCA.h}, \hyperpage{17}
+  \item {salvarEstado}
+    \subitem {LGCA}, \hyperpage{12}
+  \item {SE}
+    \subitem {Celula.h}, \hyperpage{16}
+  \item {stringParaDado}
+    \subitem {AutomatoCelular}, \hyperpage{6}
+  \item {SW}
+    \subitem {Celula.h}, \hyperpage{16}
+
+  \indexspace
+
+  \item {TOT\_\discretionary {-}{}{}VIZINHOS}
+    \subitem {Celula.h}, \hyperpage{16}
+
+  \indexspace
+
+  \item {V}
+    \subitem {CelulaLGCA.h}, \hyperpage{17}
+
+  \indexspace
+
+  \item {W}
+    \subitem {Celula.h}, \hyperpage{16}
+
+\end{theindex}

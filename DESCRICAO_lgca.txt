@@ -1,0 +1,8 @@
+Descrição dos resultados:
+
+*** Implementação do campo médio de Fukś e Lawniczak ("Individual-based lattice model for spatial spread of epidemics", 2002).
+*** CONJUNTO DE PARÂMETROS: v = 0.3, epsilon = 0.2, LGCA de 50x50, com 16.100 indivíduos ao todo, sendo 100 infectados, 0 removidos e os demais (16.000) suscetíveis no estado inicial.
+*** Contém, também, os resultados do "Campo Médio" com os mesmos parâmetros.
+
+*** OBSERVAÇÃO:
+	- O "Campo Médio" despreza informações espaciais; logo, os resultados são apenas numéricos.

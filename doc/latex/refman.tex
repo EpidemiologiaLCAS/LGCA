@@ -1,0 +1,90 @@
+\documentclass[a4paper]{book}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{ifthen}
+\usepackage[table]{xcolor}
+\usepackage{textcomp}
+\usepackage{alltt}
+\usepackage{ifpdf}
+\ifpdf
+\usepackage[pdftex,
+            pagebackref=true,
+            colorlinks=true,
+            linkcolor=blue,
+            unicode
+           ]{hyperref}
+\else
+\usepackage[ps2pdf,
+            pagebackref=true,
+            colorlinks=true,
+            linkcolor=blue,
+            unicode
+           ]{hyperref}
+\usepackage{pspicture}
+\fi
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{mathptmx}
+\usepackage[scaled=.90]{helvet}
+\usepackage{courier}
+\usepackage{sectsty}
+\usepackage[titles]{tocloft}
+\usepackage{doxygen}
+\lstset{language=C++,inputencoding=utf8,basicstyle=\footnotesize,breaklines=true,breakatwhitespace=true,tabsize=8,numbers=left }
+\makeindex
+\setcounter{tocdepth}{3}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\familydefault}{\sfdefault}
+\begin{document}
+\hypersetup{pageanchor=false}
+\begin{titlepage}
+\vspace*{7cm}
+\begin{center}
+{\Large Autômatos Celulares \\[1ex]\large 1 }\\
+\vspace*{1cm}
+{\large Gerado por Doxygen 1.7.4}\\
+\vspace*{0.5cm}
+{\small Segunda, 9 de Maio de 2011 22:34:52}\\
+\end{center}
+\end{titlepage}
+\clearemptydoublepage
+\pagenumbering{roman}
+\tableofcontents
+\clearemptydoublepage
+\pagenumbering{arabic}
+\hypersetup{pageanchor=true}
+\chapter{Índice dos Componentes}
+\input{annotated}
+\chapter{Índice dos Arquivos}
+\input{files}
+\chapter{Classes}
+\input{class_arquivo}
+\input{class_automato_celular}
+\input{class_campo_medio}
+\input{class_celula}
+\input{class_celula_l_g_c_a}
+\input{class_janela_s_d_l}
+\input{class_l_g_c_a}
+\chapter{Arquivos}
+\input{_8dep_8inc}
+\input{_arquivo_8cpp}
+\input{_arquivo_8h}
+\input{_automato_celular_8cpp}
+\input{_automato_celular_8h}
+\input{_campo_medio_8cpp}
+\input{_campo_medio_8h}
+\input{_celula_8cpp}
+\input{_celula_8h}
+\input{_celula_l_g_c_a_8cpp}
+\input{_celula_l_g_c_a_8h}
+\input{_janela_s_d_l_8cpp}
+\input{_janela_s_d_l_8h}
+\input{_l_g_c_a_8cpp}
+\input{_l_g_c_a_8h}
+\input{main_8cpp}
+\printindex
+\end{document}

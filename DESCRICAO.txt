@@ -1,0 +1,5 @@
+Descrição dos resultados:
+
+*** Implementação do AC de Michael Höhle (slides "Michael Höhle @ SundSmit Course, 5 April 2002").
+*** CONJUNTO DE PARÂMETROS: v = 0.3, epsilon = 0.2, 50x50, célula 25x25 com 30 infectados no estado inicial.
+

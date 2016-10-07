@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>Autômatos Celulares: Código-Fonte de Celula.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Gerado por Doxygen 1.7.4 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Busca');
+--></script>
+<div id="top">
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Autômatos Celulares&#160;<span id="projectnumber">1</span></div>
+   <div id="projectbrief">Implementacao de ACs em C++</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;Principal</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Arquivos</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Busca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;Arquivos</span></a></li>
+      <li><a href="globals.html"><span>Arquivos&#160;Membros</span></a></li>
+    </ul>
+  </div>
+<div class="header">
+  <div class="headertitle">
+<div class="title">Celula.h</div>  </div>
+</div>
+<div class="contents">
+<a href="_celula_8h.html">Vá para a documentação deste arquivo.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="comment">/* </span>
+<a name="l00002"></a>00002 <span class="comment"> * File:   Celula.h</span>
+<a name="l00003"></a>00003 <span class="comment"> * Author: Rodrigo Marianni</span>
+<a name="l00004"></a>00004 <span class="comment"> *</span>
+<a name="l00005"></a>00005 <span class="comment"> * Created on 3 de Agosto de 2010, 11:40</span>
+<a name="l00006"></a>00006 <span class="comment"> */</span>
+<a name="l00007"></a>00007 
+<a name="l00008"></a>00008 <span class="preprocessor">#ifndef CELULA_H</span>
+<a name="l00009"></a>00009 <span class="preprocessor"></span><span class="preprocessor">#define CELULA_H</span>
+<a name="l00010"></a>00010 <span class="preprocessor"></span>
+<a name="l00011"></a><a class="code" href="_celula_8h.html#a8900fab5b719a6bbb9267c215622628e">00011</a> <span class="preprocessor">#define TOT_VIZINHOS 8 ///&lt; total de vizinhos (8 = vizinhança de Moore)</span>
+<a name="l00012"></a>00012 <span class="preprocessor"></span>
+<a name="l00013"></a><a class="code" href="_celula_8h.html#af9cccf331f045b89a9f12366df5f7687">00013</a> <span class="preprocessor">#define NW      99 ///&lt; Coordenada noroeste</span>
+<a name="l00014"></a><a class="code" href="_celula_8h.html#a0240ac851181b84ac374872dc5434ee4">00014</a> <span class="preprocessor"></span><span class="preprocessor">#define N       1 ///&lt; Coordenada norte</span>
+<a name="l00015"></a><a class="code" href="_celula_8h.html#a5af9139e882aef6c820ae908589a40d6">00015</a> <span class="preprocessor"></span><span class="preprocessor">#define NE      2 ///&lt; Coordenada nordeste</span>
+<a name="l00016"></a><a class="code" href="_celula_8h.html#a649b8f01fd6c0f47ff3cbddaeba63bfb">00016</a> <span class="preprocessor"></span><span class="preprocessor">#define W       3 ///&lt; Coordenada oeste</span>
+<a name="l00017"></a><a class="code" href="_celula_8h.html#a07484107e6d9fdf38b53edf631d6511d">00017</a> <span class="preprocessor"></span><span class="preprocessor">#define E       4 ///&lt; Coordenada leste</span>
+<a name="l00018"></a><a class="code" href="_celula_8h.html#a4b95e941f44a20ea60512bbe2065f0b6">00018</a> <span class="preprocessor"></span><span class="preprocessor">#define SW      5 ///&lt; Coordenada sudoeste</span>
+<a name="l00019"></a>00019 <span class="preprocessor"></span><span class="comment">// #define S    6 ///&lt; Coordenada sul</span>
+<a name="l00020"></a><a class="code" href="_celula_8h.html#a18bbe716f5be6adbd2150139244c0262">00020</a> <span class="preprocessor">#define SE      7 ///&lt; Coordenada sudeste</span>
+<a name="l00021"></a>00021 <span class="preprocessor"></span>
+<a name="l00022"></a>00022 <span class="comment">// protótipo</span>
+<a name="l00023"></a>00023 <span class="keyword">class </span><a class="code" href="class_automato_celular.html">AutomatoCelular</a>;
+<a name="l00024"></a>00024 
+<a name="l00025"></a><a class="code" href="class_celula.html">00025</a> <span class="keyword">class </span><a class="code" href="class_celula.html">Celula</a> {
+<a name="l00026"></a>00026 <span class="keyword">public</span>:
+<a name="l00027"></a>00027     <a class="code" href="class_celula.html#a3c5017fbcec8cb564acc666aa7e21206">Celula</a>();
+<a name="l00028"></a>00028     <a class="code" href="class_celula.html#a3c5017fbcec8cb564acc666aa7e21206">Celula</a>(<span class="keyword">const</span> <a class="code" href="class_celula.html">Celula</a>&amp; orig);
+<a name="l00029"></a>00029     <span class="keyword">virtual</span> <a class="code" href="class_celula.html#aa102b024e4c8d91a2f69afa14d4e4130">~Celula</a>();
+<a name="l00030"></a>00030     <span class="comment">// necessário para poder armazenar objetos em vetores (ou em classes STL)</span>
+<a name="l00031"></a>00031     <a class="code" href="class_celula.html">Celula</a>&amp; <a class="code" href="class_celula.html#a376634f1f53256f52a3a53e385d92195">operator =</a>(<span class="keyword">const</span> <a class="code" href="class_celula.html">Celula</a>&amp; c);
+<a name="l00032"></a>00032 
+<a name="l00033"></a><a class="code" href="class_celula.html#a6e5b914f395a9ce47844104b9b750dde">00033</a>     <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="class_automato_celular.html">AutomatoCelular</a>;
+<a name="l00034"></a>00034 <span class="keyword">private</span>:
+<a name="l00035"></a>00035     <span class="comment">// atributos</span>
+<a name="l00036"></a>00036     <span class="keywordtype">double</span> suscetiveis, infectados, removidos;
+<a name="l00037"></a>00037     <span class="keywordtype">double</span> sTmp, iTmp, rTmp;
+<a name="l00038"></a>00038     <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> populacao;
+<a name="l00039"></a>00039     <span class="keywordtype">float</span> probViagem[<a class="code" href="_celula_8h.html#a8900fab5b719a6bbb9267c215622628e" title="total de vizinhos (8 = vizinhança de Moore)">TOT_VIZINHOS</a>];
+<a name="l00040"></a>00040 };
+<a name="l00041"></a>00041 
+<a name="l00042"></a>00042 <span class="preprocessor">#endif  </span><span class="comment">/* CELULA_H */</span>
+<a name="l00043"></a>00043 
+</pre></div></div>
+</div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Arquivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Funções</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Amigas</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Definições e Macros</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr class="footer"/><address class="footer"><small>Gerado em Segunda, 9 de Maio de 2011 22:34:52 para Autômatos Celulares por&#160;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.4 </small></address>
+</body>
+</html>

@@ -1,0 +1,139 @@
+\select@language {brazil}
+\contentsline {chapter}{\numberline {1}\IeC {\'I}ndice dos Componentes}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Lista de Componentes}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}\IeC {\'I}ndice dos Arquivos}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Lista de Arquivos}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}Classes}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Refer\IeC {\^e}ncia da Classe Arquivo}{5}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Construtores \& Destrutores}{5}{subsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.1}Arquivo}{5}{subsubsection.3.1.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.2}Arquivo}{5}{subsubsection.3.1.1.2}
+\contentsline {subsubsection}{\numberline {3.1.1.3}$\sim $Arquivo}{5}{subsubsection.3.1.1.3}
+\contentsline {subsection}{\numberline {3.1.2}M\IeC {\'e}todos}{5}{subsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.2.1}fechar}{5}{subsubsection.3.1.2.1}
+\contentsline {subsubsection}{\numberline {3.1.2.2}gravarLinha}{5}{subsubsection.3.1.2.2}
+\contentsline {subsubsection}{\numberline {3.1.2.3}obterLinha}{5}{subsubsection.3.1.2.3}
+\contentsline {section}{\numberline {3.2}Refer\IeC {\^e}ncia da Classe AutomatoCelular}{6}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Construtores \& Destrutores}{6}{subsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.1.1}AutomatoCelular}{6}{subsubsection.3.2.1.1}
+\contentsline {subsubsection}{\numberline {3.2.1.2}AutomatoCelular}{6}{subsubsection.3.2.1.2}
+\contentsline {subsubsection}{\numberline {3.2.1.3}$\sim $AutomatoCelular}{6}{subsubsection.3.2.1.3}
+\contentsline {subsection}{\numberline {3.2.2}M\IeC {\'e}todos}{6}{subsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.1}aplicarTransicao}{6}{subsubsection.3.2.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2.2}carregarConfig}{6}{subsubsection.3.2.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.3}DEBUG\_\discretionary {-}{}{}Imprimir}{6}{subsubsection.3.2.2.3}
+\contentsline {subsubsection}{\numberline {3.2.2.4}gravarDadosGrafico}{6}{subsubsection.3.2.2.4}
+\contentsline {subsubsection}{\numberline {3.2.2.5}stringParaDado}{6}{subsubsection.3.2.2.5}
+\contentsline {section}{\numberline {3.3}Refer\IeC {\^e}ncia da Classe CampoMedio}{7}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Construtores \& Destrutores}{7}{subsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.1.1}CampoMedio}{7}{subsubsection.3.3.1.1}
+\contentsline {subsubsection}{\numberline {3.3.1.2}CampoMedio}{7}{subsubsection.3.3.1.2}
+\contentsline {subsubsection}{\numberline {3.3.1.3}CampoMedio}{7}{subsubsection.3.3.1.3}
+\contentsline {subsubsection}{\numberline {3.3.1.4}$\sim $CampoMedio}{7}{subsubsection.3.3.1.4}
+\contentsline {subsection}{\numberline {3.3.2}M\IeC {\'e}todos}{7}{subsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.2.1}computarGeracao}{7}{subsubsection.3.3.2.1}
+\contentsline {subsubsection}{\numberline {3.3.2.2}computarGeracao}{7}{subsubsection.3.3.2.2}
+\contentsline {subsubsection}{\numberline {3.3.2.3}definirParametros}{7}{subsubsection.3.3.2.3}
+\contentsline {section}{\numberline {3.4}Refer\IeC {\^e}ncia da Classe Celula}{8}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Construtores \& Destrutores}{8}{subsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.1.1}Celula}{8}{subsubsection.3.4.1.1}
+\contentsline {subsubsection}{\numberline {3.4.1.2}Celula}{8}{subsubsection.3.4.1.2}
+\contentsline {subsubsection}{\numberline {3.4.1.3}$\sim $Celula}{8}{subsubsection.3.4.1.3}
+\contentsline {subsection}{\numberline {3.4.2}M\IeC {\'e}todos}{8}{subsection.3.4.2}
+\contentsline {subsubsection}{\numberline {3.4.2.1}operator=}{8}{subsubsection.3.4.2.1}
+\contentsline {subsection}{\numberline {3.4.3}Amigas e Fun\IeC {\c c}\IeC {\~o}es Relacionadas}{8}{subsection.3.4.3}
+\contentsline {subsubsection}{\numberline {3.4.3.1}AutomatoCelular}{8}{subsubsection.3.4.3.1}
+\contentsline {section}{\numberline {3.5}Refer\IeC {\^e}ncia da Classe CelulaLGCA}{8}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Construtores \& Destrutores}{9}{subsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.1.1}CelulaLGCA}{9}{subsubsection.3.5.1.1}
+\contentsline {subsubsection}{\numberline {3.5.1.2}CelulaLGCA}{9}{subsubsection.3.5.1.2}
+\contentsline {subsubsection}{\numberline {3.5.1.3}$\sim $CelulaLGCA}{9}{subsubsection.3.5.1.3}
+\contentsline {subsection}{\numberline {3.5.2}M\IeC {\'e}todos}{9}{subsection.3.5.2}
+\contentsline {subsubsection}{\numberline {3.5.2.1}atualizarCelula}{9}{subsubsection.3.5.2.1}
+\contentsline {subsubsection}{\numberline {3.5.2.2}canalOposto}{9}{subsubsection.3.5.2.2}
+\contentsline {subsubsection}{\numberline {3.5.2.3}definirCanal}{9}{subsubsection.3.5.2.3}
+\contentsline {subsubsection}{\numberline {3.5.2.4}definirEstado}{9}{subsubsection.3.5.2.4}
+\contentsline {subsubsection}{\numberline {3.5.2.5}embaralharIndividuos}{9}{subsubsection.3.5.2.5}
+\contentsline {subsubsection}{\numberline {3.5.2.6}embaralharVetorInteiro}{9}{subsubsection.3.5.2.6}
+\contentsline {subsubsection}{\numberline {3.5.2.7}gerarAleatorio}{9}{subsubsection.3.5.2.7}
+\contentsline {subsubsection}{\numberline {3.5.2.8}obterCanal}{9}{subsubsection.3.5.2.8}
+\contentsline {subsubsection}{\numberline {3.5.2.9}obterEstado}{10}{subsubsection.3.5.2.9}
+\contentsline {subsubsection}{\numberline {3.5.2.10}obterEstadoOposto}{10}{subsubsection.3.5.2.10}
+\contentsline {subsubsection}{\numberline {3.5.2.11}obterNi}{10}{subsubsection.3.5.2.11}
+\contentsline {subsubsection}{\numberline {3.5.2.12}obterQuantidadeIndividuos}{10}{subsubsection.3.5.2.12}
+\contentsline {subsubsection}{\numberline {3.5.2.13}operator=}{10}{subsubsection.3.5.2.13}
+\contentsline {section}{\numberline {3.6}Refer\IeC {\^e}ncia da Classe JanelaSDL}{10}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Construtores \& Destrutores}{10}{subsection.3.6.1}
+\contentsline {subsubsection}{\numberline {3.6.1.1}JanelaSDL}{10}{subsubsection.3.6.1.1}
+\contentsline {subsubsection}{\numberline {3.6.1.2}JanelaSDL}{10}{subsubsection.3.6.1.2}
+\contentsline {subsubsection}{\numberline {3.6.1.3}$\sim $JanelaSDL}{10}{subsubsection.3.6.1.3}
+\contentsline {subsection}{\numberline {3.6.2}M\IeC {\'e}todos}{10}{subsection.3.6.2}
+\contentsline {subsubsection}{\numberline {3.6.2.1}atualizar}{11}{subsubsection.3.6.2.1}
+\contentsline {subsubsection}{\numberline {3.6.2.2}definirDelay}{11}{subsubsection.3.6.2.2}
+\contentsline {subsubsection}{\numberline {3.6.2.3}definirDimensoes}{11}{subsubsection.3.6.2.3}
+\contentsline {subsubsection}{\numberline {3.6.2.4}definirPixel}{11}{subsubsection.3.6.2.4}
+\contentsline {subsubsection}{\numberline {3.6.2.5}definirPixel}{11}{subsubsection.3.6.2.5}
+\contentsline {subsubsection}{\numberline {3.6.2.6}definirTamanhoCelula}{11}{subsubsection.3.6.2.6}
+\contentsline {subsubsection}{\numberline {3.6.2.7}gravarScreenshot}{11}{subsubsection.3.6.2.7}
+\contentsline {subsubsection}{\numberline {3.6.2.8}inicializar}{11}{subsubsection.3.6.2.8}
+\contentsline {subsubsection}{\numberline {3.6.2.9}obterParametros}{11}{subsubsection.3.6.2.9}
+\contentsline {section}{\numberline {3.7}Refer\IeC {\^e}ncia da Classe LGCA}{11}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Construtores \& Destrutores}{11}{subsection.3.7.1}
+\contentsline {subsubsection}{\numberline {3.7.1.1}LGCA}{12}{subsubsection.3.7.1.1}
+\contentsline {subsubsection}{\numberline {3.7.1.2}LGCA}{12}{subsubsection.3.7.1.2}
+\contentsline {subsubsection}{\numberline {3.7.1.3}LGCA}{12}{subsubsection.3.7.1.3}
+\contentsline {subsubsection}{\numberline {3.7.1.4}$\sim $LGCA}{12}{subsubsection.3.7.1.4}
+\contentsline {subsection}{\numberline {3.7.2}M\IeC {\'e}todos}{12}{subsection.3.7.2}
+\contentsline {subsubsection}{\numberline {3.7.2.1}aplicarTransicao}{12}{subsubsection.3.7.2.1}
+\contentsline {subsubsection}{\numberline {3.7.2.2}carregarEstado}{12}{subsubsection.3.7.2.2}
+\contentsline {subsubsection}{\numberline {3.7.2.3}inicializar}{12}{subsubsection.3.7.2.3}
+\contentsline {subsubsection}{\numberline {3.7.2.4}salvarEstado}{12}{subsubsection.3.7.2.4}
+\contentsline {chapter}{\numberline {4}Arquivos}{13}{chapter.4}
+\contentsline {section}{\numberline {4.1}Refer\IeC {\^e}ncia do Arquivo .dep.inc}{13}{section.4.1}
+\contentsline {section}{\numberline {4.2}Refer\IeC {\^e}ncia do Arquivo Arquivo.cpp}{13}{section.4.2}
+\contentsline {section}{\numberline {4.3}Refer\IeC {\^e}ncia do Arquivo Arquivo.h}{13}{section.4.3}
+\contentsline {section}{\numberline {4.4}Refer\IeC {\^e}ncia do Arquivo AutomatoCelular.cpp}{13}{section.4.4}
+\contentsline {section}{\numberline {4.5}Refer\IeC {\^e}ncia do Arquivo AutomatoCelular.h}{14}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Defini\IeC {\c c}\IeC {\~o}es e macros}{14}{subsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.1.1}FILE\_\discretionary {-}{}{}HOHLE\_\discretionary {-}{}{}GRAFICO}{14}{subsubsection.4.5.1.1}
+\contentsline {subsubsection}{\numberline {4.5.1.2}INTERVALO\_\discretionary {-}{}{}SCREENSHOTS}{14}{subsubsection.4.5.1.2}
+\contentsline {section}{\numberline {4.6}Refer\IeC {\^e}ncia do Arquivo CampoMedio.cpp}{14}{section.4.6}
+\contentsline {section}{\numberline {4.7}Refer\IeC {\^e}ncia do Arquivo CampoMedio.h}{14}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Defini\IeC {\c c}\IeC {\~o}es e macros}{15}{subsection.4.7.1}
+\contentsline {subsubsection}{\numberline {4.7.1.1}FILE\_\discretionary {-}{}{}DADOS\_\discretionary {-}{}{}GRAFICO}{15}{subsubsection.4.7.1.1}
+\contentsline {section}{\numberline {4.8}Refer\IeC {\^e}ncia do Arquivo Celula.cpp}{15}{section.4.8}
+\contentsline {section}{\numberline {4.9}Refer\IeC {\^e}ncia do Arquivo Celula.h}{15}{section.4.9}
+\contentsline {subsection}{\numberline {4.9.1}Defini\IeC {\c c}\IeC {\~o}es e macros}{15}{subsection.4.9.1}
+\contentsline {subsubsection}{\numberline {4.9.1.1}E}{15}{subsubsection.4.9.1.1}
+\contentsline {subsubsection}{\numberline {4.9.1.2}N}{16}{subsubsection.4.9.1.2}
+\contentsline {subsubsection}{\numberline {4.9.1.3}NE}{16}{subsubsection.4.9.1.3}
+\contentsline {subsubsection}{\numberline {4.9.1.4}NW}{16}{subsubsection.4.9.1.4}
+\contentsline {subsubsection}{\numberline {4.9.1.5}SE}{16}{subsubsection.4.9.1.5}
+\contentsline {subsubsection}{\numberline {4.9.1.6}SW}{16}{subsubsection.4.9.1.6}
+\contentsline {subsubsection}{\numberline {4.9.1.7}TOT\_\discretionary {-}{}{}VIZINHOS}{16}{subsubsection.4.9.1.7}
+\contentsline {subsubsection}{\numberline {4.9.1.8}W}{16}{subsubsection.4.9.1.8}
+\contentsline {section}{\numberline {4.10}Refer\IeC {\^e}ncia do Arquivo CelulaLGCA.cpp}{16}{section.4.10}
+\contentsline {section}{\numberline {4.11}Refer\IeC {\^e}ncia do Arquivo CelulaLGCA.h}{16}{section.4.11}
+\contentsline {subsection}{\numberline {4.11.1}Defini\IeC {\c c}\IeC {\~o}es e macros}{17}{subsection.4.11.1}
+\contentsline {subsubsection}{\numberline {4.11.1.1}I}{17}{subsubsection.4.11.1.1}
+\contentsline {subsubsection}{\numberline {4.11.1.2}L}{17}{subsubsection.4.11.1.2}
+\contentsline {subsubsection}{\numberline {4.11.1.3}R}{17}{subsubsection.4.11.1.3}
+\contentsline {subsubsection}{\numberline {4.11.1.4}S}{17}{subsubsection.4.11.1.4}
+\contentsline {subsubsection}{\numberline {4.11.1.5}V}{17}{subsubsection.4.11.1.5}
+\contentsline {section}{\numberline {4.12}Refer\IeC {\^e}ncia do Arquivo JanelaSDL.cpp}{17}{section.4.12}
+\contentsline {section}{\numberline {4.13}Refer\IeC {\^e}ncia do Arquivo JanelaSDL.h}{17}{section.4.13}
+\contentsline {section}{\numberline {4.14}Refer\IeC {\^e}ncia do Arquivo LGCA.cpp}{18}{section.4.14}
+\contentsline {section}{\numberline {4.15}Refer\IeC {\^e}ncia do Arquivo LGCA.h}{18}{section.4.15}
+\contentsline {subsection}{\numberline {4.15.1}Defini\IeC {\c c}\IeC {\~o}es e macros}{18}{subsection.4.15.1}
+\contentsline {subsubsection}{\numberline {4.15.1.1}FILE\_\discretionary {-}{}{}ESTADO}{18}{subsubsection.4.15.1.1}
+\contentsline {subsubsection}{\numberline {4.15.1.2}FILE\_\discretionary {-}{}{}GRAFICO\_\discretionary {-}{}{}IR}{18}{subsubsection.4.15.1.2}
+\contentsline {subsubsection}{\numberline {4.15.1.3}FILE\_\discretionary {-}{}{}GRAFICO\_\discretionary {-}{}{}MF}{18}{subsubsection.4.15.1.3}
+\contentsline {subsubsection}{\numberline {4.15.1.4}FILE\_\discretionary {-}{}{}GRAFICO\_\discretionary {-}{}{}S}{18}{subsubsection.4.15.1.4}
+\contentsline {section}{\numberline {4.16}Refer\IeC {\^e}ncia do Arquivo main.cpp}{18}{section.4.16}
+\contentsline {subsection}{\numberline {4.16.1}Fun\IeC {\c c}\IeC {\~o}es}{19}{subsection.4.16.1}
+\contentsline {subsubsection}{\numberline {4.16.1.1}ca\_\discretionary {-}{}{}hohle}{19}{subsubsection.4.16.1.1}
+\contentsline {subsubsection}{\numberline {4.16.1.2}lgca\_\discretionary {-}{}{}novo}{19}{subsubsection.4.16.1.2}
+\contentsline {subsubsection}{\numberline {4.16.1.3}lgca\_\discretionary {-}{}{}salvo}{19}{subsubsection.4.16.1.3}
+\contentsline {subsubsection}{\numberline {4.16.1.4}main}{19}{subsubsection.4.16.1.4}
+\contentsline {subsubsection}{\numberline {4.16.1.5}mean\_\discretionary {-}{}{}field}{19}{subsubsection.4.16.1.5}
+\contentsline {subsubsection}{\numberline {4.16.1.6}processar\_\discretionary {-}{}{}linha\_\discretionary {-}{}{}comando}{19}{subsubsection.4.16.1.6}
