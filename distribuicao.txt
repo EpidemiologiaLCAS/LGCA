@@ -1,0 +1,3 @@
+Quantidade de suscetíveis por célula:
+
+0: 500	1:2000	2:0	3:0	4:0
